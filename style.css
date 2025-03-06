@@ -1,0 +1,36 @@
+#diceContainer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#diceBtn {
+    font-size: 1.5 rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(240, 100%, 65%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+#diceBtn:hover {
+    background-color: hsl(240, 52%, 42%);
+}
+#diceBtn:active {
+    background-color: hsl(240, 52%, 60%);
+}
+#diceInput{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+#diceResult{
+    margin: 25px;
+}
+#diceImages img{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
